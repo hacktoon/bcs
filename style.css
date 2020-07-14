@@ -1,0 +1,103 @@
+
+
+* { padding:0; margin: 0;}
+
+body {
+    font: normal normal normal 11px/1 Arial, Sans-serif;
+    background: #222;
+    color: #333;
+}
+
+h2 { margin-bottom: 10px; }
+
+#screen { 
+    width: 980px;
+    margin: 30px auto;
+ }
+
+#input_panel {
+    float: left;
+    width: 200px;
+    background: #EEE;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#input {
+    font-size: 20px;
+    font-weight: bold;
+    width: 180px;
+    height: 300px;
+    padding: 10px;
+}
+
+#execute, #exemplo {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#memory {
+    text-align: center;
+    width: 460px;
+    background: #EEE;
+    float: left;
+    padding: 10px 20px 20px;
+    margin: 0 20px 0;
+    border-radius: 10px;
+}
+
+.memory-block {
+    border: 1px solid #000;
+    width: 60px;
+    height: 30px;
+    padding: 13px 0;
+    background: #FFF;
+    float: left;
+    margin: 0 2px 2px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ula_panel {
+    text-align: center;
+    width: 460px;
+    background: #EEE;
+    float: left;
+    padding: 10px 20px 20px;
+    margin: 20px 20px 0;
+    border-radius: 10px;
+}
+
+#ula {
+    width: 440px;
+    border: 1px solid #000;
+    height: 85px;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    background: #000;
+    color: #FFF;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#output_panel {
+    float: right;
+    width: 200px;
+    background: #EEE;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#output {
+	font-size: 20px;
+    font-weight: bold;
+    width: 180px;
+    height: 350px;
+    padding: 10px;
+	
+}
